@@ -1,30 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-html,body{
-    height: 100%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-header{
-    position: sticky;
-    top: 0;
-    background: white;
-    font-size: 12px;
-}
-
-.left img{
-    width: 90px;
-    height: 105px;
-}
-.container{
-    padding: 0 10vw;
-    margin: 13px 0px;
-}
-nav ul li{
-    list-style: none;
-    padding: 0 12px;
+header {
+  position: sticky;
+  top: 0;
+  background: white;
+  font-size: 12px;
+  height: 66px;
 }
 
-.section1{
-    background-color: #f2f2f2;
-    height: 122vh;
+.left img {
+  width: 90px;
+  height: 105px;
 }
+.container {
+  padding: 0 10vw;
+}
+nav {
+  font-size: 12px;
+  padding-top: 14px;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+
+}
+
+.section1 {
+  background-color: #f2f2f2;
+  width: 80vw;
+}
+.search {
+  width: 25vw;
+  padding: 9px 21px;
+  border-radius: 3px;
+  border: none;
+  background: #f7f8fd;
+}
+.item-width {
+  width: 12vw;
+  margin: 4px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 2px 5px 9px;
+}
+
+footer {
+  padding: 30px 10px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+nav ul :hover{
+    color: #ef11b7;
+    cursor: pointer;
+    text-decoration: underline;
+  
+}
+
